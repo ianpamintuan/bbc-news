@@ -1,0 +1,188 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+header {
+    line-height: 1.5;
+    min-height: 50px;
+}
+
+#branding {
+    float: left;
+    width: 100px;
+}
+
+header li {
+    float: left;
+    list-style: none;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    border-right: 1px solid #ecf0f1;
+}
+
+header #user {
+    float: left;
+    width: 25px;
+    margin: 2px 10px;
+}
+
+header #arrow {
+    float: right;
+    width: 20px;
+    margin: 2px 10px;
+}
+
+header input[type="text"] {
+    float: left;
+    border: 0px;
+    background-color: #ecf0f1;
+    padding: 3px;
+    margin: 11px 0px 0px 10px;
+}
+
+header #search {
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 21px; 
+    background-color: #ecf0f1;
+}
+
+header a:hover {
+    border-bottom: 4px solid #000000;
+}
+
+section#news {
+    background-color: #BB1919;
+    padding: 10px;
+}
+
+section#news h1 {
+    color: #ffffff;
+    font-size: 2.25em;
+}
+
+nav#main-nav {
+    background-color: #A91717;
+    line-height: 1.5;
+}
+
+nav#main-nav li {
+    float: left;
+    list-style-type: none;
+}
+
+nav#main-nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-right: 1px solid #BB1919;
+}
+
+nav#main-nav img {
+    float: right;
+    position: relative;
+    width: 20px;
+}
+
+nav#main-nav a:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+section #tech {
+    margin-top: 10px;
+    font-weight: normal;
+    border-bottom: 3px solid #A91717;
+}
+
+article#main-article, aside {
+    margin-top: 20px;
+}
+
+article#main-article {
+    float: left;
+    width: 58%;
+    margin-right: 2%;
+}
+
+article#main-article h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+article#main-article p {
+    float: left;
+    width: 40%;
+    margin: 12.5px 0px;
+}
+
+article#main-article #asda {
+    float: right;
+    width: 60%;
+}
+
+span {
+    width: 36%;
+    color: #bdc3c7;
+    padding-right: 4%;
+    border-right: 1px solid red;
+}
+
+.clock {
+    margin-top: -5px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+}
+
+.side-articles {
+    width: 20%;
+}
+
+aside p {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    background-color: #34495e;
+    min-height: 50px;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
